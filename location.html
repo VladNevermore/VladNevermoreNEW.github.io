@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Локация Vlookah Кальянной</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        section {
+            text-align: center;
+            display: grid;
+            gap: 10px;
+            grid-template-rows: auto auto auto;
+            align-items: center;
+            justify-content: center;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            justify-self: center;
+        }
+
+        p {
+            color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        .button-container {
+            display: grid;
+            gap: 10px;
+            grid-template-rows: repeat(2, 1fr);
+            grid-template-columns: repeat(2, 1fr);
+            align-items: center;
+            justify-content: center;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            text-align: center;
+            text-decoration: none;
+            background-color: #4CAF50;
+            color: #fff;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            margin: 5px;
+            height: 60px; /* Высота кнопок */
+            line-height: 60px;
+        }
+
+        .button-long {
+            display: block;
+            margin-top: 10px;
+            grid-column: span 2; /* Распространяется на две ячейки сетки */
+        }
+
+        .button:hover {
+            background-color: #45a049;
+        }
+
+        .location-card {
+            text-align: center;
+            margin: 20px;
+        }
+
+        .location-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .location-address {
+            margin-top: 20px;
+            color: #555;
+        }
+
+        .map-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            text-align: center;
+            text-decoration: none;
+            background-color: #3498db;
+            color: #fff;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            margin-top: 20px;
+        }
+
+        .map-button:hover {
+            background-color: #2980b9;
+        }
+
+        .back-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            text-align: center;
+            text-decoration: none;
+            background-color: #555;
+            color: #fff;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            margin-top: 20px;
+        }
+
+        .back-button:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Локация Vlookah Кальянной</h1>
+    </header>
+
+    <section>
+        <div class="location-card">
+            <img src="location.jpg" alt="Фасад кальянной" class="location-image">
+            <p class="location-address">Адрес кальянной: Ваш адрес</p>
+            <a href="https://www.google.ru/maps/dir/''/Mr.Hookah,+ул.+Володарского,+14,+Тюмень,+Тюменская+обл.,+625000/@57.168635,65.5509313,14.5z/data=!4m14!4m13!1m5!1m1!1s0x43bbe161e17b01d9:0xaee06a00abad81f0!2m2!1d65.5339454!2d57.1580709!1m5!1m1!1s0x43bbe161e17b01d9:0xaee06a00abad81f0!2m2!1d65.5339454!2d57.1580709!3e3?entry=ttu" class="map-button">Проложить маршрут</a>
+        </div>
+
+        <a href="https://t.me/FrenchAssistantBot/about" class="back-button">На главную</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Vlookah Кальянная. Все права защищены.</p>
+    </footer>
+</body>
+
+</html>
